@@ -184,7 +184,7 @@
 
         .hint {
             position: absolute;
-            bottom: 100px;
+            bottom: 250px;
             font-size: 0.7rem;
             text-transform: uppercase;
             color: var(--text-muted);
@@ -195,6 +195,10 @@
             width: 250px;
             padding-top: 30px;
         }
+
+        .oben {
+            justify-content: normal;
+        }
     </style>
 </head>
 <body>
@@ -204,7 +208,7 @@
 
     <div class="deck" id="deck">
         
-        <section class="slide">
+        <section class="slide oben">
             <div style="position:relative; height: 300px; width:100%;">
                 <img src="couch.png" class="fly-in" id="couch" style="width:80%; position:absolute; left:10%; bottom:50px;">
                 <img src="person_auf_couch.png" class="fly-in" id="person" style="width:50%; position:absolute; right:15%; bottom:100px;">
@@ -231,7 +235,7 @@
             <img src="nena.png" class="fly-in" id="nena">
         </section>
 
-        <section class="slide">
+        <section class="slide oben">
             <h1 class="highlight">Hardfacts</h1>
             <p class="fly-in bp-1">Wir spielen in der <b>Bezirksoberliga</b> (die letzten zwei Saisons gar nicht so schlecht!).</p>
             <img src="check.webp" id="dog" class="fly-in" style="padding: 20px;" width="150px"/>
